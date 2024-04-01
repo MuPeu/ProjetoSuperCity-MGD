@@ -1,0 +1,24 @@
+*{ /* "*" é um seletor universal que pode alterar todas as páginas de uma vez */
+    margin: 0; /* Margem */
+    padding: 0; /* Espaçamento */
+    box-sizing: border-box; /* Bordas */
+}
+
+body{
+    background-color: rgb(7, 0, 26); /* Cor de fundo, que iremos utilizar como o "chão" */
+}
+
+.game_table{ /* Class "game_table" */
+    width: 100%; /* Largura */
+    height: 500%; /* Altura */
+    border-bottom: 20px solid rgb(7, 0, 26); /* Borda de baixo */
+    margin: 0 auto; /* Margem automatica */
+    position: relative; /* Posição relativa.  Esse comando é utilizado para posicionar o elemento em relação à possição dele na página */
+    overflow: hidden; /* É usado para controlar o conteúdo que excede as dimenções de um elemento. Quando aplicado, ele oculta qualquer conteúdo que utrapassa os limites do elemento, em vez de exibi-lo */
+    background-image: url(); /* Imagem de fundo */
+    background-size: cover; /* Faz com que a imagem de fundo cubra a tela inteira */
+}
+
+.sumo{ /* Obstaculo */
+
+}
